@@ -544,6 +544,227 @@ img{
 }
 
    /*********************************/
+  /*********** Works CSS**********/
+ /********************************/
+
+ .works_banner_area {
+	margin: 78px 0;
+}
+
+.works_banenr_text p {
+	margin: 38px 0 51px 0;
+}
+
+.works_number {
+	background: #005BF5;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	font-family: 'Inter', sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 28px;
+	flex: 0 0 auto;
+}
+
+.works_buyer_box p {
+	margin-top: 7px;
+}
+
+.works_buyer_text ul li {
+	display: flex;
+	gap: 27px;
+	align-items: start;
+	margin-bottom: 25px;
+}
+
+.works_buyer_text h3{
+	margin-bottom: 48px;
+}
+
+.works_buyer_area {
+	padding: 83px 0;
+}
+
+
+
+   /*********************************/
+  /*********** BENEFITS CSS**********/
+ /********************************/
+
+ .benefits_banner h2 span {
+	color: #005BF5;
+}
+
+.benefits_banner h2 {
+	color: var(--Primary, #001B49);
+	text-align: center; 
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 70.5px;
+	letter-spacing: -0.5px;
+	text-transform: capitalize;
+}
+
+.benefits_banner p {
+	margin: 24px 0;
+} 
+
+.benefits_banner{
+	text-align: center;
+}
+
+.benefits_banner {
+	text-align: center;
+	max-width: 571px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.benefit_about { 
+	padding-bottom: 261px;
+}
+
+.benfit_shape1 img {
+	width: 207px;
+}
+
+.benfit_shape2 img {
+	width: 268px;
+}
+
+.benfit_shape3 img {
+	width: 371px;
+}
+
+.benfit_shape1 {
+	position: absolute;
+	bottom: 170px;
+	left: 0;
+}
+ 
+
+.benfit_shape2 {
+	position: absolute;
+	bottom: 0;
+	left: 295px;
+}
+
+.benfit_shape3 {
+	position: absolute;
+	bottom: 115px;
+	right: 0;
+}
+
+.benefit_sell_area{
+	position: relative;
+	margin: 98px 0 157px 0;
+}
+
+.benefit_sell_bg {
+	background: red;
+}
+
+.benefit_sell_area {
+	/* display: flex; */
+}
+ 
+.benfit_sell_left {
+	flex: 0 0 50%;
+}
+ 
+
+.benefit_sell_bg {  
+	flex: 0 0 50%;
+	width: 100%;
+	border-radius: 0px 20px 20px 0px;
+	background: var(--Primary, #001B49);
+	padding: 37px 43px 37px 0;
+}
+
+.benefit_sell_bg_box p {
+	margin: 40px 0 45px 0;
+	color: #fff;
+}
+
+.benefit_sell_bg_box h3 {
+	color: #fff;
+}
+
+.benefit_sell_right h5 {
+	color: var(--Body-text-Color, #32486D);
+	margin-bottom: 27px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 24px;
+}
+.benefit_sell_right ul li img {
+	width: 28px;
+}
+
+.benefit_sell_right ul li {
+	display: flex;
+	align-items: flex-start;
+	gap: 28px;
+	flex: 0 0 calc(100% / 2 - 15px);
+	margin-bottom: 14px;
+}
+
+.benefit_sell_right ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.benefit_mine {
+	margin: 66px 0 103px 0;
+}
+
+.benefit_shop_item img {
+	width: 42px;
+}
+
+.title_h5{
+	color: var(--Primary, #001B49);
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 28px;
+}
+
+.benefit_shop_item h5 {
+	margin: 24px 0 20px 0;
+}
+
+.benefit_shop_item {
+	border-radius: 10px;
+	background: #FFF;
+	box-shadow: 0px 6px 160px 0px rgba(0, 0, 0, 0.05);
+	padding: 27px 30px;
+	box-sizing: border-box; 
+	height: 100%;
+}
+
+.benefir_shop_btn {
+	margin: 36px 0 58px 0;
+}
+
+.benfit_shopping_area{
+	margin-bottom: 85px;
+}
+
+
+   /*********************************/
   /*********** HEADER CSS**********/
  /********************************/
 
