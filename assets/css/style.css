@@ -594,6 +594,15 @@ img{
 
 
 
+.join_box .sell_grid { 
+	grid-template-columns: 1fr  1fr 1fr;
+}
+
+.join_area {
+	margin: 84px 0 109px 0;
+}
+
+
    /*********************************/
   /*********** BENEFITS CSS**********/
  /********************************/
@@ -682,12 +691,21 @@ img{
 }
  
 
-.benefit_sell_bg {  
+.benefit_sell_bg {
 	flex: 0 0 50%;
 	width: 100%;
 	border-radius: 0px 20px 20px 0px;
 	background: var(--Primary, #001B49);
 	padding: 37px 43px 37px 0;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	left: -57%;
+}
+
+.benefit_sell_bg_box {
+	position: relative;
+	z-index: 9;
 }
 
 .benefit_sell_bg_box p {
@@ -762,6 +780,8 @@ img{
 .benfit_shopping_area{
 	margin-bottom: 85px;
 }
+
+
 
 
    /*********************************/
