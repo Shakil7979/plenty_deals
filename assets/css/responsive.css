@@ -8,4 +8,53 @@
         max-width: 1312px;
         margin: 0 auto;
     }
+    .menu_ul { 
+        display: flex !important;
+    }
 }
+
+@media all and (max-width: 1200px){ 
+    .mobile_bars{
+        display: block;
+     }
+     .menu_ul {
+        gap: 15px;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: #fff;
+        z-index: 9;
+        top: 100%;
+        padding: 25px 0;
+        display: none;
+        text-align: center;
+    }
+    .menu_ul li{
+        margin-bottom: 15px;
+    }
+    .menu_ul li a { 
+        margin: 0 auto;
+    }
+    .header_area { 
+        position: relative;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile_bars i {
+        font-size: 25px;
+        color: #1A75FF;
+    }
+}
+
+@media all and (max-width: 991px){}
+
+@media all and (max-width: 767px){}
+
+@media all and (max-width: 576px){}
+
+@media all and (max-width: 450px){}

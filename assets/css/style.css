@@ -114,6 +114,12 @@ img{
 	padding: 32px 0;
 }
 
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .menu_ul {
 	display: flex;
 	justify-content: flex-end;
@@ -354,18 +360,54 @@ img{
 	border-radius: 10px;
 	background: #FFF;
 	box-shadow: 0px 0px 166px 17px rgba(0, 0, 0, 0.05);
-	padding: 22px 32px; 
+	padding: 22px 32px;
+	flex: 0 0 calc(100% / 2 - 12px);
 }
 
 .sell_grid {
-	display: grid;
-	grid-template-columns: 1fr  1fr ;
-	grid-gap: 25px; 
+	display: flex;
+	/* grid-template-columns: 1fr  1fr ; */
+	gap: 24px; 
+	flex-wrap: wrap;
+}
+
+.sell_more_item{ 
+	flex: 0 0 calc(100% / 3 - 12px);
+}
+
+.first_join_grid{
+	align-items: inherit;
 }
 
 .sell_item:nth-child(4),
 .sell_item:nth-child(2){
 	transform: translateY(35px);
+}
+
+.join_area .sell_item:nth-child(4), .join_area .sell_item:nth-child(2) {
+	transform: translateY(0);
+}
+
+
+.join_box .sell_item {  
+	flex: 0 0 calc(100% / 3 - 12px);
+}
+
+.join_box .sell_grid {  
+	flex-wrap: inherit;
+	flex-wrap: inherit;
+}
+
+.join_box .last_sell_grid {  
+	align-items: flex-start; 
+}
+
+.join_box .sell_item{
+	margin-bottom: 25px;
+}
+
+.join_area {
+	margin: 84px 0 109px 0;
 }
 
 
@@ -594,13 +636,6 @@ img{
 
 
 
-.join_box .sell_grid { 
-	grid-template-columns: 1fr  1fr 1fr;
-}
-
-.join_area {
-	margin: 84px 0 109px 0;
-}
 
 
    /*********************************/
@@ -787,6 +822,10 @@ img{
    /*********************************/
   /*********** HEADER CSS**********/
  /********************************/
+
+ .mobile_bars{
+	display: none;
+ }
 
 /* 
 
