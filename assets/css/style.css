@@ -307,10 +307,11 @@ img{
 	margin-top: 36px;
 }
 
-.saving_area{
+.saving_area {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
+	height: 500px;
 }
 
 .left_site_contents_main{
@@ -328,7 +329,7 @@ img{
 
 .saving_img_box img{
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .saving_left {
