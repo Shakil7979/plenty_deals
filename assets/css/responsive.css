@@ -49,12 +49,262 @@
         font-size: 25px;
         color: #1A75FF;
     }
+    .saving_area { 
+        height: 526px;
+    }
+    .saving_img_box img { 
+        height: 100%;
+    }
 }
 
-@media all and (max-width: 991px){}
+@media all and (max-width: 991px){
+    .saving_area { 
+        flex-direction: column;
+        height: auto;
+    }
+    .left_site_contents_main {
+        top: 0%;
+        transform: translateY(0%);
+        position: inherit;
+        padding: 34px 0;
+    }
+    .saving_area { 
+        margin: 25px 0;
+    }
+    .shooping_bg {
+        display: none;
+    }
+    .shopping_content { 
+        position: inherit;
+        padding: 42px 0;
+    }
+    .title_h3 { 
+        font-size: 30px; 
+    }
+    .shopping_area {
+        margin-bottom: 50px;
+    }
+    .btn_3 { 
+        font-size: 16px; 
+    } 
+    .benfit_shape2 { 
+        left: 112px;
+    }
+    .benefits_banner h2 { 
+        font-size: 32px; 
+        line-height: 44.5px; 
+    }
+    .benefits_banner { 
+        position: relative;
+        z-index: 999;
+    }
+    .benefit_sell_right ul li { 
+        flex-direction: column;
+        gap: 12px;
+    }
+}
 
-@media all and (max-width: 767px){}
+@media all and (max-width: 767px){
+    .about h2 { 
+        font-size: 35px; 
+    }
+    .benfit_shape2 img {
+        width: 161px;
+    }
+    .shopping {
+        background: #1A6DE9;
+        border-radius: 10px;
+    }
+    .benfit_shape3 img {
+        width: 272px;
+    }
+    .benfit_shape1 img {
+        width: 180px;
+    }
+    .about h2 {
+        font-size: 30px;
+        line-height: 36.5px;
+    }
+    .benefit_sell_bg { 
+        display: none;
+    }
+    .benefit_sell_area {
+        position: relative;
+        margin: 40px 0;
+    }
+    .benefit_mine {
+        margin: 40px 0;
+    }
+    .benefit_about .shape_1 { 
+        display: none;
+    }
+    .benefit_about .shape_2 { 
+        display: none;
+    }
+    .benefit_sell_bg { 
+        border-radius: 0px; 
+        position: inherit; 
+        left: 0;
+    }
+    .benefit_sell_right {
+        margin-top: 25px;
+    }
+    .benefit_sell_bg_box { 
+        background: #001B49;
+        padding: 25px;
+    }
+    .title_h4 { 
+        font-size: 18px; 
+    }
+    .sell_left p {
+        padding: 12px 0 30px 0;
+    }
+    .section_title { 
+        margin: 0 auto 10px auto;
+    }
+    .btn_2 { 
+        font-size: 16px; 
+    }
+    .section_title p {
+        margin-top: 3px;
+    }
+    .shopping_content {
+        width: inherit; 
+    }
+    .footer_copy {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .social_footer ul { 
+        justify-content: center;
+    }
+    .pra_p { 
+        font-size: 16px; 
+        line-height: 25px;
+    }
+    .about_market_header h2 { 
+        font-size: 36px; 
+        line-height: 44.5px; 
+    }
+    .about_market_area {
+        margin-bottom: 34px;
+    }
+    .title_h3 { 
+        font-size: 26px; 
+    }
+    .impact_left p {
+        margin: 6px 0 55px 0;
+    }
+    .impact_area .row {
+        flex-direction: column-reverse;
+    }
+    .btn_1 { 
+        font-size: 16px; 
+    }
+    .about_market_header h2 {
+        font-size: 25px;
+        line-height: 36.5px;
+    }
+    .sell_grid { 
+        margin-top: 30px;
+    }
+    .sell_item:nth-child(4), .sell_item:nth-child(2) {
+        transform: translateY(0);
+    }
+    .sell_grid { 
+        flex-direction: column;
+    }
+    .single_choice { 
+        height: auto;
+        margin-top: 25px;
+    }
+    .sel_area {
+        padding: 18px 0 26px 0px;
+    }
+    .footer_logo p { 
+        margin-top: 0;
+    }
+    .single_footer_item,
+    .footer_logo {
+        margin-bottom: 25px;
+    }
+    .single_footer_item h4 { 
+        margin-bottom: 7px;
+    }
+    .single_footer_item ul li {
+        margin-bottom: 6px;
+    }
+    .footer_first { 
+        padding: 20px 0;
+    }
+    .works_banenr_text {
+        margin-top: 30px;
+    }
+    .works_banenr_text p {
+        margin: 25px 0;
+    }
+    .works_banner_area {
+        margin: 30px 0;
+    }
+    .works_buyer_area {
+        padding: 20px 0;
+    }
+    .join_area {
+        margin: 40px 0;
+    }
+    .sell_grid.first_join_grid > .sell_item {
+        margin-bottom: 0;
+    }
+    .sell_more_item .sell_item {
+        margin-bottom: 25px;
+    }
+    .sell_more_item .sell_item:last-child {
+        margin-bottom: 0;
+    }
+    .works_number { 
+        width: 40px;
+        height: 40px; 
+        font-size: 18px; 
+    }
+}
 
-@media all and (max-width: 576px){}
+@media all and (max-width: 576px){
+    .title_h3 {
+        font-size: 22px;
+    }
+    .footer_copy p { 
+        font-size: 14px; 
+    }
+    .title_h3 { 
+        line-height: 34px; 
+    }
+    .choice_area {
+        margin: 29px 0 40px 0;
+    }
+    .pra_p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .sell_item img {
+        width: 50px;
+    }
+    .footer_second { 
+        padding: 20px 0;
+    }
+    .benfit_shape1 { 
+        bottom: 120px; 
+    }
+    .benefit_sell_bg_box p {
+        margin: 20px 0; 
+    }
 
-@media all and (max-width: 450px){}
+}
+
+@media all and (max-width: 450px){
+    .benfit_shape3 img {
+        width: 233px;
+    }
+    .benfit_shape1 img {
+        width: 151px;
+    }
+}
