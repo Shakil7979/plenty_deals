@@ -527,7 +527,60 @@ img{
 
  .footer_first {
 	background: var(--Secondary, #005BF5);
-	padding: 51px 0 41px 0;
+	padding: 51px 0 0 0;
+}
+
+.subs_input input {
+	border-radius: 40px;
+	background: #FFF;
+	padding: 16px 150px 16px 33px;
+	border: none;
+	width: 100%;
+	color: #868E8E;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.subscription {
+	margin-bottom: 50px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #FFC220;
+}
+
+.subs_btn {
+	border-radius: 40px;
+	background: #FFC220;
+	border: none;
+	padding: 14px 37.699px 14px 38px;
+	color: #F0F0F0;
+	text-align: center; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.6px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.subs_content p {
+	color: #F0F0F0; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.subs_content h3 {
+	color: #F0F0F0; 
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+	text-transform: capitalize;
 }
 
 .footer_logo a img {
@@ -547,6 +600,7 @@ img{
 .single_footer_item h4 {
 	color: #fff;
 	margin-bottom: 16px;
+	font-weight: 500;
 }
 
 .single_footer_item ul li a {
@@ -559,12 +613,88 @@ img{
 }
 
 .single_footer_item ul li {
-	margin-bottom: 12px;
+	margin-bottom: 7px;
+}
+
+.footer_location li {
+	display: flex; 
+	align-items: flex-start;
+	gap: 8px;  
+	margin-bottom: 7px;
+}
+
+.footer_location li p {
+	margin: 0;
+}
+
+.footer {
+	display: flex;
+	gap: 9px;
+}
+
+.subs_input{
+	position: relative;
+}
+
+.footer_location li i { 
+	color: #FFC220;
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.footer_logo {
+	flex: 0 0 28%;
+}
+
+.single_footer_item {
+	flex: 0 0 17%;
+}
+
+.single_footer_item:last-child {
+	flex: 0 0 20%;
+}
+
+.subs_mail > img {
+	width: 56px;
+}
+
+.social_footer p {
+	color: #868E8E; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+} 
+
+.footer_copy ul li a {
+	color: #868E8E; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	transition: 0.3s;
+}
+
+.footer_copy ul {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.footer_copy ul li a:hover{
+	color: #fff;
 }
 
 .footer_second {
 	background: #011B49;
-	padding: 48px 0;
+	padding: 16px 0;
+	margin-top: 48px;
+}
+
+.subs_mail {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
 }
 
 .footer_copy p {
@@ -583,7 +713,7 @@ img{
 .social_footer ul {
 	display: flex;
 	align-items: center;
-	gap: 24px;
+	gap: 8px;
 }
 
    /*********************************/

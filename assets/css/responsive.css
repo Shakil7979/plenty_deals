@@ -62,12 +62,25 @@
         flex-direction: column;
         height: auto;
     }
+    .footer_copy ul { 
+        flex-wrap: wrap;
+    }
+    .single_footer_item, .footer_logo {
+        flex: 0 0 48%;
+        margin-bottom: 20px;
+    }
+    .subs_mail { 
+        margin-bottom: 12px;
+    }
     .left_site_contents_main {
         top: 0%;
         transform: translateY(0%);
         position: inherit;
         padding: 34px 0;
     }
+    .footer { 
+        flex-wrap: wrap;
+    } 
     .saving_area { 
         margin: 25px 0;
     }
@@ -107,6 +120,17 @@
 @media all and (max-width: 767px){
     .about h2 { 
         font-size: 35px; 
+    }
+    
+    .social_footer {
+        text-align: center;
+    }
+    .footer_copy ul { 
+        gap: 7px;  
+        justify-content: center;
+    }
+    .footer { 
+        flex-direction: column;
     }
     .benfit_shape2 img {
         width: 161px;
@@ -174,10 +198,7 @@
     .footer_copy {
         margin-bottom: 10px;
         text-align: center;
-    }
-    .social_footer ul { 
-        justify-content: center;
-    }
+    } 
     .pra_p { 
         font-size: 16px; 
         line-height: 25px;
@@ -235,7 +256,7 @@
         margin-bottom: 6px;
     }
     .footer_first { 
-        padding: 20px 0;
+        padding: 20px 0 0 0 ;
     }
     .works_banenr_text {
         margin-top: 30px;
